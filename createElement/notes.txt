@@ -1,0 +1,3 @@
+When a JSX element is compiled, the compiler transforms the JSX element into the method 
+that you see above: React.createElement(). Every JSX element is secretly a call to 
+React.createElement().

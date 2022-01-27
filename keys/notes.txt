@@ -1,0 +1,3 @@
+keys don’t do anything that you can see! React uses them internally to keep track of lists. 
+If you don’t use keys when you’re supposed to, React might accidentally scramble your 
+list-items into the wrong order.
