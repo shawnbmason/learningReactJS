@@ -1,3 +1,5 @@
+// rendering function example
+
 import React from 'react';
 import ReactDOM from 'react-dom';
 
