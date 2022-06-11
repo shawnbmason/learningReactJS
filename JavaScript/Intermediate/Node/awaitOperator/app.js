@@ -18,3 +18,16 @@ async function announceDinner() {
 }
 
 announceDinner()
+
+
+// another example
+
+const shopForBeans = require('./library.js');
+
+async function getBeans() {
+  let value = await shopForBeans();
+  console.log(`1. Heading to the store to buy beans...`);
+  console.log(`3. Great! I'm making ${value} beans for dinner tonight!`);
+}
+
+getBeans();
